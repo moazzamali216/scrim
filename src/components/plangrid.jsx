@@ -56,7 +56,7 @@ function PlanGrid() {
                                 <button className='w-full text-center py-[13px] bg-[white] text-[#2A2A2A] text-[18px] font-[700] mt-[14px]  rounded-[10px] '>Downgrade</button>
 
                             </div>
-                            <div className=' mx-[7px]'>
+                            <div className='   px-[20px]  mx-[7px]'>
                                 <div className='flex mt-[8px]  gap-4 items-center'>
                                     <div>
                                         <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
