@@ -8,7 +8,7 @@ function Index() {
       <section className="w-full  mt-[80px] ">
         <div className="max-w-[986px]  mx-auto poppins  text-center container ">
           <h1 className="text-[40px] font-[900] text-[#092061]">Subscription</h1>
-          <p className="mt-[14px] poppins text-[#2A2A2A] font-[21px]">Manage your Flight Ping subscription and usage</p>
+          <p className="mt-[14px] text-[21px] poppins text-[#2A2A2A] font-[21px]">Manage your Flight Ping subscription and usage</p>
           <div className="mt-[66px] flex justify-between ">
             <div className="flex   w-fit items-center  gap-[10px]">
               <div className="p-[20px]"><svg width="24" height="24" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
