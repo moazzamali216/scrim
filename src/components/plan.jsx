@@ -24,7 +24,7 @@ function Plans() {
               </svg>
               </div>
               <div className="flex flex-col gap-[3px]"><h5 className="text-[#2A2A2A] text-start text-[21px] font-[700] poppins">Local the commuter</h5>
-                <p className="text-[21px] font-[400] poppins text-start text-[#2A2A2A]">TT $50 billed monthly</p>
+                <p className="text-[21px] mt-[3px] font-[400] poppins text-start text-[#2A2A2A]">TT $50 billed monthly</p>
               </div>
             </div>
             <div className="flex  w-fit items-center  gap-[10px]">
@@ -34,7 +34,7 @@ function Plans() {
 
               </div>
               <div className="flex flex-col gap-[3px]"><h5 className="text-[#2A2A2A] text-start text-[21px] font-[700] poppins">Next billing date</h5>
-                <p className="text-[21px] font-[400] poppins text-start text-[#2A2A2A]">August 27, 2025</p>
+                <p className="text-[21px] mt-[3px] font-[400] poppins text-start text-[#2A2A2A]">August 27, 2025</p>
               </div>
             </div>
           </div>
