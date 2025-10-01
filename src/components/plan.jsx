@@ -16,7 +16,8 @@ function Plans() {
         <div className="max-w-[986px]  mx-auto poppins  text-center container ">
           <h1 className="text-[40px] font-[900] text-[#092061]">Subscription</h1>
           <p className="mt-[14px] text-[21px] poppins text-[#2A2A2A] font-[21px]">Manage your Flight Ping subscription and usage</p>
-          <div className="mt-[66px] flex justify-between ">
+       <div className='pt-[34px] mt-[32px] pb-[32px]  bg-[#F9FAFB] rounded-2xl px-[24px]'>
+           <div className=" flex justify-between ">
             <div className="flex   w-fit items-center  gap-[10px]">
               <div className="p-[20px]"><svg width="24" height="24" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10.7656 21.5C10.9412 21.804 11.1936 22.0565 11.4977 22.232C11.8017 22.4075 12.1466 22.4999 12.4976 22.4999C12.8487 22.4999 13.1936 22.4075 13.4976 22.232C13.8016 22.0565 14.0541 21.804 14.2296 21.5" stroke="#2A2A2A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -38,7 +39,7 @@ function Plans() {
               </div>
             </div>
           </div>
-          <div className="mt-[26px] px-[24px] pt-[24px] pb-[74px]   ">
+          <div className="mt-[26px] px-[24px] pt-[24px]    ">
             <div className="flex justify-between">
               <h5 className="text-[#2A2A2A] text-start text-[21px] font-[700] poppins">Flights check used</h5>   <p className="text-[21px] font-[400] poppins text-start text-[#2A2A2A]"><span>27</span>/ <span>200</span></p>
             </div>
@@ -89,6 +90,7 @@ function Plans() {
               </div>
             </div>
           </div>
+       </div>
         </div>
       </section>
       

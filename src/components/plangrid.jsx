@@ -9,13 +9,17 @@ function PlanGrid() {
                 <div className="max-w-[986px] py-[28px] px-[24px]   mx-auto poppins   container ">
                     <h5 className="text-[#2A2A2A] text-start text-[21px] font-[700] poppins">Available Plans</h5>
                     <div className='grid gap-x-4 grid-cols-3 mt-4'>
-                        <div className='border rounded-[16px] border-[#E5E7EB] pt-[34px] px-[20px] pb-[17.5px]'>
-                            <h4 className='font-[400] text-[#0A2161] poppins text-start text-[18px]'>One-Off Watch</h4>
-                            <h4 className='font-[800] text-[#0A2161] poppins text-start text-[32px]'>TT $25</h4>
-                            <p className='font-[400] text-[#76797C]  h-[108px] overflow-hidden mt-[16.5px] text-[18px] poppins text-start'  >Perfect for: Carnival weekends, family emergencies, last-minute getaways</p>
-                            <button className='w-full text-center py-[13px] bg-[#22C55E] text-[18px] font-[700] mt-[14px]  rounded-[10px] text-white'>Downgrade</button>
-                            <div className='mt-[32px] mx-[7px]'>
-                                <div className='flex  gap-4 items-center'>
+                        <div className='border rounded-[16px] border-[#E5E7EB]   pb-[17.5px]'>
+                            <div className='bg-[#F4FEF7] rounded-[16px] relative !text-[#092061] pt-[34px] px-[20px] pb-[23.5px]'>
+                                <h4 className='font-[400]  poppins text-start text-[18px]'>One-Off Watch</h4>
+                             
+                                <h4 className='font-[800]  poppins text-start text-[32px]'>TT $25/ <span className='text-[24px]'>month</span></h4>
+                                <p className='font-[400]  mt-[16.5px] text-[18px] poppins text-[#76797C] h-[108px] overflow-hidden text-start'  >Perfect for: Carnival weekends, family emergencies, last-minute getaways</p>
+                                <button className='w-full text-center py-[13px] bg-[#22C55E] text-white  text-[18px] font-[700] mt-[14px]  rounded-[10px] '>Downgrade</button>
+
+                            </div>
+                            <div className=' px-[20px]  mx-[7px]'>
+                                <div className='flex mt-[8px] gap-4 items-center'>
                                     <div>
                                         <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M14.5885 5.125L6.56771 13.1458L2.92188 9.5" stroke="#22C55E" stroke-width="1.45833" stroke-linecap="round" stroke-linejoin="round" />
@@ -52,8 +56,8 @@ function PlanGrid() {
                                 </svg>
                                 </div>
                                 <h4 className='font-[800]  poppins text-start text-[32px]'>TT $50/ <span className='text-[24px]'>month</span></h4>
-                                <p className='font-[400]  mt-[16.5px] text-[18px] poppins text-start'  ><span className='font-bold  h-[108px] overflow-hidden'>Perfect for:</span> Carnival weekends, family emergencies, last-minute getaways</p>
-                                <button className='w-full text-center py-[13px] bg-[white] text-[#2A2A2A] text-[18px] font-[700] mt-[14px]  rounded-[10px] '>Downgrade</button>
+                                <p className='font-[400] h-[108px] overflow-hidden  mt-[16.5px] text-[18px] poppins text-start'  ><span className='font-bold  '>Perfect for:</span> Carnival weekends, family emergencies, last-minute getaways</p>
+                                <button className='w-full text-center py-[13px] bg-[white] text-[#2A2A2A] text-[18px] font-[700] mt-[14px]  rounded-[10px] '>Current</button>
 
                             </div>
                             <div className='   px-[20px]  mx-[7px]'>
@@ -81,7 +85,7 @@ function PlanGrid() {
                                     </div>
                                     <div className='text-[#686868] text-[18px]'>"Pinged or you don't pay" guarantee</div>
                                 </div>
-                                        <div className='flex mt-2 gap-4 items-center'>
+                                <div className='flex mt-2 gap-4 items-center'>
                                     <div>
                                         <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M14.5885 5.125L6.56771 13.1458L2.92188 9.5" stroke="#22C55E" stroke-width="1.45833" stroke-linecap="round" stroke-linejoin="round" />
@@ -99,13 +103,16 @@ function PlanGrid() {
                                 </div>
                             </div>
                         </div>
-                             <div className='border rounded-[16px] border-[#E5E7EB] pt-[34px] px-[20px] pb-[17.5px]'>
-                            <h4 className='font-[400] text-[#0A2161] poppins text-start text-[18px]'>Pro / International </h4>
-                            <h4 className='font-[800] text-[#0A2161] poppins text-start text-[32px]'>Comming Soon</h4>
-                            <p className='font-[400] text-[#76797C] mt-[16.5px] text-[18px] h-[108px] overflow-hidden poppins text-start'  >Sneak Peak Features</p>
-                            <button className='w-full text-center py-[13px] bg-[#E3E9E9] text-[18px] font-[700] mt-[14px]  rounded-[10px] text-[#0920615a] '>Notify me</button>
-                            <div className='mt-[32px] mx-[7px]'>
-                                <div className='flex  gap-4 items-center'>
+                     <div className='border rounded-[16px] border-[#E5E7EB]   pb-[17.5px]'>
+                            <div className='bg-[#F4FEF7] rounded-[16px] relative !text-[#092061] pt-[34px] px-[20px] pb-[23.5px]'>
+                                <h4 className='font-[400]  poppins text-start text-[18px]'>Pro / International</h4>
+                           
+                                <h4 className='font-[800]  poppins text-start text-[32px]'>Comming Soon <span className='text-[24px]'></span></h4>
+                                <p className='font-[400]  mt-[16.5px] text-[18px] poppins text-[#76797C] h-[108px]  overflow-hidden text-start'  >Sneak peek features</p>
+                              <button class="w-full text-center py-[13px] bg-[#E3E9E9] text-[18px] font-[700] mt-[14px]  rounded-[10px] text-[#0920615a] ">Notify me</button>
+                            </div>
+                            <div className=' px-[20px]  mx-[7px]'>
+                                <div className='flex mt-[8px] gap-4 items-center'>
                                     <div>
                                         <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M14.5885 5.125L6.56771 13.1458L2.92188 9.5" stroke="#22C55E" stroke-width="1.45833" stroke-linecap="round" stroke-linejoin="round" />
