@@ -7,7 +7,7 @@ function Subscription() {
         <>
             <section className="w-full   ">
                 <div className="max-w-[986px]   mx-auto poppins   container ">
-                    <div className='pt-[32px] pb-[60px] px-[24px]  '>
+                    <div className='pt-[32px] pb-[60px] bg-[#F9FAFB] rounded-2xl px-[24px]  '>
                         <div className='flex items-center gap-[26px]'>
                             <div>
                                 <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">

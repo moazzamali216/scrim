@@ -6,7 +6,7 @@ function PlanGrid() {
     return (
         <>
             <section className="w-full  mt-[24px]  ">
-                <div className="max-w-[986px] py-[28px] px-[24px]   mx-auto poppins   container ">
+                <div className="max-w-[986px] py-[28px] rounded-2xl bg-[#F9FAFB] px-[24px]   mx-auto poppins   container ">
                     <h5 className="text-[#2A2A2A] text-start text-[21px] font-[700] poppins">Available Plans</h5>
                     <div className='grid gap-x-4 grid-cols-3 mt-4'>
                         <div className='border rounded-[16px] border-[#E5E7EB]   pb-[17.5px]'>
