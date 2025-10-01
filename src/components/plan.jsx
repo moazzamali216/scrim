@@ -51,7 +51,7 @@ function Plans() {
             </div>
             <div className="flex mt-[6px] justify-between">
               <p className="text-[21px] font-[400] poppins text-start text-[#2A2A2A]">75</p>
-              <p className="text-[21px] font-[400] poppins text-start text-[#2A2A2A]">65%</p>
+              <p className="text-[21px] font-[400] poppins text-start text-[#2A2A2A]">64% used</p>
               <p className="text-[21px] font-[400] poppins text-start text-[#2A2A2A]">200</p>
 
             </div>
