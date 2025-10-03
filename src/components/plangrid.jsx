@@ -6,11 +6,11 @@ function PlanGrid() {
     return (
         <>
             <section className="w-full  mt-[24px]  ">
-                <div className="lg:max-w-[948px] xl:max-w-[986px] max-w-[600px]   py-[28px] rounded-2xl bg-[#F9FAFB] px-[24px]   mx-auto poppins   container ">
+                <div className="lg:max-w-[948px] xl:max-w-[986px] max-w-[600px]   py-[28px] rounded-2xl bg-[#F9FAFB] px-4 border border-[red] sm:px-[24px]   mx-auto poppins   container ">
                     <h5 className="text-[#2A2A2A] text-start text-[21px] font-[700] poppins">Available Plans</h5>
                     <div className='grid gap-x-4 gap-y-4 lg:grid-cols-3 mt-4'>
-                        <div className='lg:border lg:flex-col gap-x-5 flex rounded-[16px] border-[#E5E7EB]   pb-[17.5px]'>
-                            <div className='bg-[#F4FEF7]  lg:w-full w-1/2 rounded-[16px] relative !text-[#092061] pt-[34px] px-5 lg:px-[16px] xl:px-[20px] pb-[23.5px]'>
+                        <div className='lg:border border border-[red] w-full lg:flex-col gap-x-5 sm:flex-row flex-col flex rounded-[16px] border-[#E5E7EB]   pb-[17.5px]'>
+                            <div className='bg-[#F4FEF7]  lg:w-full w-full sm:w-1/2 rounded-[16px] relative !text-[#092061] pt-[34px] px-5 lg:px-[16px] xl:px-[20px] pb-[23.5px]'>
                                 <h4 className='font-[400]  poppins text-start text-[18px]'>One-Off Watch</h4>
                              
                                 <h4 className='font-[800]  poppins text-start text-[32px]'>TT $25/ <span className='text-[24px]'>month</span></h4>
@@ -18,7 +18,7 @@ function PlanGrid() {
                                 <button className='w-full text-center py-[13px] bg-[#22C55E] text-white  text-[18px] font-[700] mt-[14px]  rounded-[10px] '>Downgrade</button>
 
                             </div>
-                            <div className=' lg:px-[20px] lg:w-full w-1/2   mx-[7px]'>
+                            <div className=' lg:px-[20px] lg:w-full sm:w-1/2  w-full  sm:mx-[7px]'>
                                 <div className='flex mt-[8px] gap-4 items-center'>
                                     <div>
                                         <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">

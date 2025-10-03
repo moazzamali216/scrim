@@ -15,7 +15,7 @@ function Plans() {
       <section className="w-full  mt-[80px] ">
         <div className="lg:max-w-[948px] xl:max-w-[986px] max-w-[600px] mx-auto poppins  text-center container ">
           <h1 className="text-[40px] font-[900] text-[#092061]">Subscription</h1>
-          <p className="mt-[14px] text-[21px] poppins text-[#2A2A2A] font-[21px]">Manage your Flight Ping subscription and usage</p>
+          <p className="mt-[14px] text-[21px] poppins px-4 text-[#2A2A2A] font-[21px]">Manage your Flight Ping subscription and usage</p>
           <div className='pt-[34px] mt-[32px] pb-[32px]  bg-[#F9FAFB] rounded-2xl px-[24px]'>
             <div className=" flex lg:flex-row flex-col gap-y-5 justify-between ">
               <div className="flex   w-fit items-center  gap-[10px]">
