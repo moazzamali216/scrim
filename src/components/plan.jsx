@@ -41,7 +41,7 @@ function Plans() {
             </div>
             <div className='mt-[24px] p-6'>
               <div className="flex justify-between">
-                <h5 className="text-[#2A2A2A] text-start text-[21px] font-[700] poppins">Flights check used</h5>   <p className="text-[21px] font-[400] poppins text-start text-[#2A2A2A]"><span>27</span>/ <span>200</span></p>
+                <h5 className="text-[#2A2A2A] text-start text-[18px] sm:text-[21px] font-[700] poppins">Flights check used</h5>   <p className="text-base sm:text-[21px] font-[400] poppins text-start text-[#2A2A2A]"><span>27</span>/ <span>200</span></p>
               </div>
 
               <div className="mt-2.5">
@@ -50,9 +50,9 @@ function Plans() {
                 </div>
               </div>
               <div className="flex mt-[6px] justify-between">
-                <p className="text-[21px] font-[400] poppins text-start text-[#2A2A2A]">75</p>
-                <p className="text-[21px] font-[400] poppins text-start text-[#2A2A2A]">64% used</p>
-                <p className="text-[21px] font-[400] poppins text-start text-[#2A2A2A]">200</p>
+                <p className="text-base sm:text-[21px] font-[400] poppins text-start text-[#2A2A2A]">75</p>
+                <p className="text-base sm:text-[21px] font-[400] poppins text-start text-[#2A2A2A]">64% used</p>
+                <p className="text-base sm:text-[21px] font-[400] poppins text-start text-[#2A2A2A]">200</p>
 
               </div>
             </div>
@@ -87,7 +87,7 @@ function Plans() {
                       <div >
                         <img src={tick} alt="tick" c />
                       </div>
-                      <p className="text-[21px] font-medium text-[#2A2A2A]">{feature}</p>
+                      <p className=" text-[16px] text-start sm:text-center  sm:text-[21px] font-medium text-[#2A2A2A]">{feature}</p>
                     </div>
                   ))}
                 </div>
