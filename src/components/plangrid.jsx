@@ -45,7 +45,7 @@ function PlanGrid() {
                                 </div>
                             </div>
                         </div>
-                        <div className='lg:border border lg:flex-col sm:flex-row flex-col gap-x-5 flex  overflow-hidden rounded-[16px] border-[#E5E7EB] lg:pb-[17.5px] '>
+                        <div className='lg:border border lg:flex-col sm:flex-row flex-col gap-x-5 flex pb-[14px] sm:pb-0  overflow-hidden rounded-[16px] border-[#E5E7EB] lg:pb-[17.5px] '>
                             <div className='bg-track pb-[36px]  lg:w-full w-full sm:w-1/2 rounded-[16px] relative !text-white pt-[34px] px-[20px] lg:pb-[23.5px]'>
                                 <h4 className='font-[400]  poppins text-start text-[18px]'>Local Commuter Pass</h4>
                                 <div className='absolute right-0 top-[25px] lg:block hidden rotate-[0deg]'><svg width="104" height="84" viewBox="0 0 104 84" fill="none" xmlns="http://www.w3.org/2000/svg">
