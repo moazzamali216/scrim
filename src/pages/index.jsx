@@ -18,7 +18,7 @@ function Index() {
 
         <Plans />
       <PlanGrid/>
-      <Subscription/>
+      {/* <Subscription/> */}
  
 
     </>
