@@ -22,7 +22,7 @@ function Subscription() {
                      
                      <div className='px-[32px] pt-10'>
                            <p className=' text-[#4A5565] text-[18px] leading-[150%]'>Your subscription will remain active until the end of your current billing period. You'll lose access to all features after cancellation.</p>
-                        <button className='w-full sm:w-[259px] py-[13px] rounded-[10px] mt-[23px] font-[700] text-white bg-[#EA4444]'>Cancel Subscription</button>
+                        <button className=' sm:w-[259px] py-[13px] rounded-[10px] mt-[23px] font-[700] text-white bg-[#EA4444]'>Cancel Subscription</button>
                      </div>
                     </div>
                 </div>
