@@ -45,7 +45,7 @@ function PlanGrid() {
                                 </div>
                             </div>
                         </div>
-                        <div className='lg:border lg:flex-col sm:flex-row flex-col gap-x-5 flex  sm:overflow-hidden rounded-[16px] border-[#E5E7EB] lg:pb-[17.5px] '>
+                        <div className='lg:border border lg:flex-col sm:flex-row flex-col gap-x-5 flex  overflow-hidden rounded-[16px] border-[#E5E7EB] lg:pb-[17.5px] '>
                             <div className='bg-track pb-[36px]  lg:w-full w-full sm:w-1/2 rounded-[16px] relative !text-white pt-[34px] px-[20px] lg:pb-[23.5px]'>
                                 <h4 className='font-[400]  poppins text-start text-[18px]'>Local Commuter Pass</h4>
                                 <div className='absolute right-0 top-[25px] lg:block hidden rotate-[0deg]'><svg width="104" height="84" viewBox="0 0 104 84" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -83,7 +83,7 @@ function PlanGrid() {
                                             <path d="M14.5885 5.125L6.56771 13.1458L2.92188 9.5" stroke="#22C55E" stroke-width="1.45833" stroke-linecap="round" stroke-linejoin="round" />
                                         </svg>
                                     </div>
-                                    <div className='text-[#686868] text-[18px]'>"Pinged or you don't pay" guarantee</div>
+                                    <div className='text-[#686868] text-[18px]'>"Pinged or not.</div>
                                 </div>
                                 <div className='flex mt-2 gap-4 items-center'>
                                     <div>
@@ -99,11 +99,11 @@ function PlanGrid() {
                                             <path d="M14.5885 5.125L6.56771 13.1458L2.92188 9.5" stroke="#22C55E" stroke-width="1.45833" stroke-linecap="round" stroke-linejoin="round" />
                                         </svg>
                                     </div>
-                                    <div className='text-[#686868] text-[18px]'>"Pinged or you don't pay" guarantee</div>
+                                    <div className='text-[#686868] text-[18px]'>"Pinged or y</div>
                                 </div>
                             </div>
                         </div>
-                     <div className='lg:border lg:flex-col gap-x-5 sm:flex-row flex-col flex rounded-[16px] border-[#E5E7EB]   pb-[17.5px]'>
+                     <div className='lg:border border lg:flex-col gap-x-5 sm:flex-row flex-col flex rounded-[16px] border-[#E5E7EB]   pb-[17.5px]'>
                             <div className='bg-[#F4FEF7] lg:w-full w-full sm:w-1/2  rounded-[16px] relative !text-[#092061] pt-[34px] px-5 lg:px-[16px] xl:px-[20px] pb-[23.5px]'>
                                 <h4 className='font-[400]  poppins text-start text-[18px]'>Pro / International</h4>
                            
