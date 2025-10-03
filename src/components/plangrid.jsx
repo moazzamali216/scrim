@@ -6,19 +6,19 @@ function PlanGrid() {
     return (
         <>
             <section className="w-full  mt-[24px]  ">
-                <div className="max-w-[986px]  py-[28px] rounded-2xl bg-[#F9FAFB] px-[24px]   mx-auto poppins   container ">
+                <div className="lg:max-w-[948px] xl:max-w-[986px] max-w-[600px]   py-[28px] rounded-2xl bg-[#F9FAFB] px-[24px]   mx-auto poppins   container ">
                     <h5 className="text-[#2A2A2A] text-start text-[21px] font-[700] poppins">Available Plans</h5>
-                    <div className='grid gap-x-4 grid-cols-3 mt-4'>
-                        <div className='border rounded-[16px] border-[#E5E7EB]   pb-[17.5px]'>
-                            <div className='bg-[#F4FEF7] rounded-[16px] relative !text-[#092061] pt-[34px] px-[20px] pb-[23.5px]'>
+                    <div className='grid gap-x-4 gap-y-4 lg:grid-cols-3 mt-4'>
+                        <div className='lg:border lg:flex-col gap-x-5 flex rounded-[16px] border-[#E5E7EB]   pb-[17.5px]'>
+                            <div className='bg-[#F4FEF7]  lg:w-full w-1/2 rounded-[16px] relative !text-[#092061] pt-[34px] px-5 lg:px-[16px] xl:px-[20px] pb-[23.5px]'>
                                 <h4 className='font-[400]  poppins text-start text-[18px]'>One-Off Watch</h4>
                              
                                 <h4 className='font-[800]  poppins text-start text-[32px]'>TT $25/ <span className='text-[24px]'>month</span></h4>
-                                <p className='font-[400]  mt-[16.5px] text-[18px] poppins text-[#76797C] h-[108px] overflow-hidden text-start'  >Perfect for: Carnival weekends, family emergencies, last-minute getaways</p>
+                                <p className='font-[400]  mt-[16.5px] text-[18px] poppins text-[#76797C] lg:h-[108px] overflow-hidden text-start'  >Perfect for: Carnival weekends, family emergencies, last-minute getaways</p>
                                 <button className='w-full text-center py-[13px] bg-[#22C55E] text-white  text-[18px] font-[700] mt-[14px]  rounded-[10px] '>Downgrade</button>
 
                             </div>
-                            <div className=' px-[20px]  mx-[7px]'>
+                            <div className=' lg:px-[20px] lg:w-full w-1/2   mx-[7px]'>
                                 <div className='flex mt-[8px] gap-4 items-center'>
                                     <div>
                                         <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -45,10 +45,10 @@ function PlanGrid() {
                                 </div>
                             </div>
                         </div>
-                        <div className='border  overflow-hidden rounded-[16px] border-[#E5E7EB] pb-[17.5px] '>
-                            <div className='bg-track rounded-[16px] relative !text-white pt-[34px] px-[20px] pb-[23.5px]'>
+                        <div className='lg:border lg:flex-col gap-x-5 flex  overflow-hidden rounded-[16px] border-[#E5E7EB] lg:pb-[17.5px] '>
+                            <div className='bg-track pb-[36px]  lg:w-full w-1/2 rounded-[16px] relative !text-white pt-[34px] px-[20px] lg:pb-[23.5px]'>
                                 <h4 className='font-[400]  poppins text-start text-[18px]'>Local Commuter Pass</h4>
-                                <div className='absolute right-0 top-[25px] rotate-[0deg]'><svg width="104" height="84" viewBox="0 0 104 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <div className='absolute right-0 top-[25px] lg:block hidden rotate-[0deg]'><svg width="104" height="84" viewBox="0 0 104 84" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M62.0221 72.1509C69.5256 75.0664 77.3932 77.4931 83.6944 82.6999C84.0706 83.0086 84.6256 82.9571 84.9376 82.5811C85.2463 82.2038 85.1957 81.648 84.8207 81.336C78.3718 76.0082 70.3404 73.4848 62.6622 70.5025C62.2091 70.3238 61.6954 70.5519 61.5198 71.0073C61.3408 71.4614 61.569 71.9723 62.0221 72.1509Z" fill="white" />
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M65.3148 60.8926C68.4597 59.5687 71.6232 58.8684 75.0276 59.1843C75.5138 59.2298 75.9432 58.8716 75.9907 58.3866C76.035 57.9004 75.6768 57.4692 75.1939 57.4249C71.492 57.081 68.0537 57.8253 64.635 59.2635C64.1844 59.4519 63.9711 59.97 64.1611 60.4205C64.3479 60.8694 64.8675 61.0822 65.3148 60.8926Z" fill="white" />
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M67.3311 34.7711C69.7545 31.4452 72.9345 29.307 76.9579 28.3864C77.4323 28.2776 77.7309 27.8035 77.6214 27.3275C77.5152 26.8528 77.0414 26.5547 76.567 26.6634C72.114 27.6835 68.5898 30.0478 65.9063 33.7302C65.618 34.1238 65.7066 34.6783 66.0983 34.9648C66.4932 35.2528 67.046 35.1659 67.3311 34.7711Z" fill="white" />
@@ -56,11 +56,11 @@ function PlanGrid() {
                                 </svg>
                                 </div>
                                 <h4 className='font-[800]  poppins text-start text-[32px]'>TT $50/ <span className='text-[24px]'>month</span></h4>
-                                <p className='font-[400] h-[108px] overflow-hidden  mt-[16.5px] text-[18px] poppins text-start'  ><span className='font-bold  '>Perfect for:</span> Carnival weekends, family emergencies, last-minute getaways</p>
+                                <p className='font-[400] lg:h-[108px] overflow-hidden  mt-[16.5px] text-[18px] poppins text-start'  ><span className='font-bold  '>Perfect for:</span> Carnival weekends, family emergencies, last-minute getaways</p>
                                 <button className='w-full text-center py-[13px] bg-[white] text-[#2A2A2A] text-[18px] font-[700] mt-[14px]  rounded-[10px] '>Current</button>
 
                             </div>
-                            <div className='   px-[20px]  mx-[7px]'>
+                            <div className='  lg:w-full w-1/2   lg:px-[20px]  mx-[7px]'>
                                 <div className='flex mt-[8px]  gap-4 items-center'>
                                     <div>
                                         <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -103,15 +103,15 @@ function PlanGrid() {
                                 </div>
                             </div>
                         </div>
-                     <div className='border rounded-[16px] border-[#E5E7EB]   pb-[17.5px]'>
-                            <div className='bg-[#F4FEF7] rounded-[16px] relative !text-[#092061] pt-[34px] px-[20px] pb-[23.5px]'>
+                     <div className='lg:border lg:flex-col gap-x-5 flex rounded-[16px] border-[#E5E7EB]   pb-[17.5px]'>
+                            <div className='bg-[#F4FEF7] lg:w-full w-1/2  rounded-[16px] relative !text-[#092061] pt-[34px] px-5 lg:px-[16px] xl:px-[20px] pb-[23.5px]'>
                                 <h4 className='font-[400]  poppins text-start text-[18px]'>Pro / International</h4>
                            
                                 <h4 className='font-[800]  poppins text-start text-[32px]'>Comming Soon <span className='text-[24px]'></span></h4>
-                                <p className='font-[400]  mt-[16.5px] text-[18px] poppins text-[#76797C] h-[108px]  overflow-hidden text-start'  >Sneak peek features</p>
-                              <button class="w-full text-center py-[13px] bg-[#E3E9E9] text-[18px] font-[700] mt-[14px]  rounded-[10px] text-[#0920615a] ">Notify me</button>
+                                <p className='font-[400]  mt-[16.5px] text-[18px] poppins text-[#76797C] lg:h-[108px]  overflow-hidden text-start'  >Sneak peek features</p>
+                              <button class="w-full text-center py-[13px] bg-[#E3E9E9] text-[18px] font-[700] mt-[22px] lg:mt-[14px]  rounded-[10px] text-[#0920615a] ">Notify me</button>
                             </div>
-                            <div className=' px-[20px]  mx-[7px]'>
+                            <div className=' lg:px-[16px] 2xl:px-[20px] lg:w-full w-1/2   mx-[7px]'>
                                 <div className='flex mt-[8px] gap-4 items-center'>
                                     <div>
                                         <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">

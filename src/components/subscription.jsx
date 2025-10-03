@@ -6,7 +6,7 @@ function Subscription() {
     return (
         <>
             <section className="w-full   ">
-                <div className="max-w-[986px] mt-[24px]  rounded-2xl  mx-auto poppins   container ">
+                <div className="lg:max-w-[948px] xl:max-w-[986px] max-w-[600px] mt-[24px]  rounded-2xl  mx-auto poppins   container ">
                     <div className='pt-[32px] pb-[60px] bg-[#F9FAFB] rounded-2xl px-[24px]  '>
                         <div className='flex items-center gap-[26px]'>
                             <div>
