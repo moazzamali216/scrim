@@ -56,7 +56,7 @@ function PlanGrid() {
                                 </svg>
                                 </div>
                                 <h4 className='font-[800]  poppins text-start text-[32px]'>TT $50/ <span className='text-[24px]'>month</span></h4>
-                                <p className='font-[400] lg:h-[108px] overflow-hidden  mt-[16.5px] text-[18px] poppins text-start'  ><span className='font-bold  '>Perfect for:</span> Carnival weekends, family emergencies, last-minute getaways</p>
+                                <p className='font-[400] lg:h-[108px] sm:overflow-hidden  mt-[16.5px] text-[18px] poppins text-start'  ><span className='font-bold  '>Perfect for:</span> Carnival weekends, family emergencies, last-minute getaways</p>
                                 <button className='w-full text-center py-[13px] bg-[white] text-[#2A2A2A] text-[18px] font-[700] mt-[14px]  rounded-[10px] '>Current</button>
 
                             </div>
