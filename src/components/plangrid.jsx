@@ -111,7 +111,7 @@ function PlanGrid() {
                                 <p className='font-[400]  mt-[16.5px] text-[18px] poppins text-[#76797C] lg:h-[108px]  overflow-hidden text-start'  >Sneak peek features</p>
                               <button class="w-full text-center py-[13px] bg-[#E3E9E9] text-[18px] font-[700] mt-[22px] lg:mt-[14px]  rounded-[10px] text-[#0920615a] ">Notify me</button>
                             </div>
-                            <div className=' lg:px-[16px] 2xl:px-[20px] lg:w-full w-full sm:w-1/2   mx-[7px]'>
+                            <div className=' lg:px-[20px] lg:w-full sm:w-1/2  w-full px-[7px] sm:mx-[7px]'>
                                 <div className='flex mt-[8px] gap-4 items-center'>
                                     <div>
                                         <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
